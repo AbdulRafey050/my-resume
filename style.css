@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #ECDFCC;
+    color: #697565;
+    line-height: 1.6;
+    padding: 20px;
+    scroll-behavior: smooth;
+}
+
+h1 {
+    text-align: center;
+    color: #000000;
+    font-size: 2.2rem;
+    margin-bottom: 25px;
+    font-family: 'Georgia', serif;
+    font-weight: bold;
+}
+
+table {
+    width: 80%;
+    max-width: 100%;
+    border-collapse: collapse;
+    margin: 30px auto;
+    background-color: #ffffff;
+    border: 2px solid #697565;
+    box-shadow: 0 12px 18px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #697565;
+    color: #ECDFCC;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-size: 1.2rem;
+}
+
+td {
+    font-size: 1rem;
+    color: #697565;
+    background-color: #ECDFCC;
+    font-weight: 600;
+    padding: 15px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+td:hover {
+    background-color: #c5b6a5;
+    transform: scale(1.02);
+}
+
+img {
+    width: 20vw;
+    height: 20vw;
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 10px;
+    border: 4px solid #697565;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    color: #697565;
+    font-weight: bold;
+    font-family: 'Arial Black', Gadget, sans-serif;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+li:hover {
+    color: #a56965;
+    transform: scale(1.05);
+}
+
+a {
+    text-decoration: none;
+    color: #697565;
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    margin-bottom: 15px;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #a56965;
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 15px;
+    }
+
+    table {
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    img {
+        width: 25vw;
+        height: 25vw;
+        max-width: 150px;
+        max-height: 150px;
+    }
+}
+
+@media (max-width: 500px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    td, th {
+        font-size: 0.9rem;
+        padding: 10px;
+    }
+
+    img {
+        width: 30vw;
+        height: 30vw;
+        max-width: 100px;
+        max-height: 100px;
+    }
+}
